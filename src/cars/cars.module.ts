@@ -4,4 +4,4 @@ import { CarsController } from './cars.controller';
 @Module({
   controllers: [CarsController],
 })
-export class CarsModule {}
+export class CarsModule { }
