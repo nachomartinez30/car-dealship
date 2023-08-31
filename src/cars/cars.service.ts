@@ -10,4 +10,7 @@ export class CarsService {
     findAll() {
         return this.cars;
     }
+    finOneByID(id: number) {
+        return this.cars[id]
+    }
 }
